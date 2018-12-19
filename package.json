@@ -1,0 +1,25 @@
+{
+  "name": "spacex_launch_stats_react_graphql",
+  "version": "1.0.0",
+  "description": "App that lists SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Belchenkov/spacex_launch_stats_react_graphql.git"
+  },
+  "keywords": [
+    "React.js",
+    "Appolo",
+    "Express",
+    "Nodejs"
+  ],
+  "author": "Belchenkov Aleksey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Belchenkov/spacex_launch_stats_react_graphql/issues"
+  },
+  "homepage": "https://github.com/Belchenkov/spacex_launch_stats_react_graphql#readme"
+}
