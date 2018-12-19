@@ -4,7 +4,8 @@
   "description": "App that lists SpaceX launch missions",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/Belchenkov/spacex_launch_stats_react_graphql/issues"
   },
-  "homepage": "https://github.com/Belchenkov/spacex_launch_stats_react_graphql#readme"
+  "homepage": "https://github.com/Belchenkov/spacex_launch_stats_react_graphql#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
